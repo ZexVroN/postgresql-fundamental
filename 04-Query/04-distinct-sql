@@ -1,0 +1,16 @@
+-- Menampilkan semua author
+SELECT author
+FROM books;
+
+-- Menampilkan author yang unik
+SELECT DISTINCT author
+FROM books;
+
+-- DISTINCT pada dua kolom
+SELECT DISTINCT author, publish_year
+FROM books;
+
+-- DISTINCT dan ORDER BY
+SELECT DISTINCT author
+FROM books
+ORDER BY author ASC;
